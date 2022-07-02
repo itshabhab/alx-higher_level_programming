@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for letter in range(ord('z'), ord('a') - 1, -1):
-if letter % 2 == 1:
-letter = letter - 32
-print("{:s}".format(chr(letter)), end="")
+for i in range(122, 96, -1):
+    if i % 2 != 0:
+        i = i - 32
+    print("{}".format(chr(i)), end="")

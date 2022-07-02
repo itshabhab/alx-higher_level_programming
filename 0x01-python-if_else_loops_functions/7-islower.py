@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 def islower(c):
-mia = ord(c)
-if mia in range(97, 122):
-return True
-else:
-return False
+    if ord(c) > 96:
+        return True
+    else:
+        return False
